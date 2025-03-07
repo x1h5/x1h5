@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f5f0e1;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(45deg, #8e44ad, #3498db);
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card i {
+    font-size: 40px;
+    color: #8e44ad;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.social-links a {
+    font-size: 35px;
+    color: #8e44ad;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #3498db;
+}
+
+.welcome {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: opacity 1s ease-in-out;
+    z-index: 10;
+}
+    
+    
+    </style>
+
+    <div class="welcome">
+        <h1>تراني مو سهل </h1>
+    </div>
+
+    <header>
+        <h2>معكم [ياسر]</h2>
+        <p>الموفع ذا سويته حق الطفش</p>
+    </header>
+
+    <section class="menu">
+        <a href="gallery.html" class="card">
+            <i class="fas fa-images"></i>
+            <h3>معرض الصور</h3>
+            <p>بوريكم تصويري</p>
+        </a>
+
+        <a href="contact.html" class="card">
+            <i class="fas fa-envelope"></i>
+            <h3>تواصل معي</h3>
+            <p>هنا كل حساباتي</p>
+        </a>
+    </section>
+
+    <section class="social-links">
+        <a href="https://x.com/q78ya?s=21/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/x1h5?igsh=dHY1NHd4N29kcHhh&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://t.me/x1h51" target="_blank"><i class="fab fa-telegram"></i></a>
+        <a href="https://tellonym.me/ex3n1" target="_blank"><i class="fas fa-question-circle"></i></a>
+        <a href="https://snapchat.com/t/NNwEEhoi" target="_blank"><i class="fab fa-snapchat"></i></a>
+    </section>
+
+</body>
+</html>
